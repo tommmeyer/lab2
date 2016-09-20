@@ -17,9 +17,4 @@ public class Card {
 	public int getCardSuit(){
 		return this.iCardSuit;
 	}
-
-	
-	
-	
-	
 }

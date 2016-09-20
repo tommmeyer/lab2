@@ -4,7 +4,7 @@
 package pokerBase;
 
 import static org.junit.Assert.*;
-
+import Deck.java
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -31,7 +31,9 @@ public class DeckTest {
 	}
 
 	@Test
-	public void BuildDeck(){	
+	public void BuildDeck(){
+		Deck deck = new Deck();
+	
 	}
 
 	public void DeckOverDraw()  {

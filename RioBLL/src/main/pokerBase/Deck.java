@@ -13,12 +13,12 @@ public class Deck {
 		int cardNbr = 1;
 		for (cardSuit = 0; cardSuit < 4; cardSuit++){
 			for (cardRnk = 0; cardRnk < 13; cardRnk++){
-				cardRnk++;
 				getDeckCards.add(cardNbr,cardRnk,cardSuit);
-			}
-		Collections.shuffle(getDeckCards);	
+				cardNbr++;
+			}	
 		}
-
+		Collections.shuffle(getDeckCards);
+	}
 	public Card Draw() {
 		return getDeckCards.remove(0);
 	}
