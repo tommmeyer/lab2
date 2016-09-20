@@ -3,7 +3,7 @@ public class Card {
 	private int iCardNbr;
 	private int iCardRnk;
 	private int iCardSuit;
-	public Card(int cardNbr, int cardRnk , int cardSuit){
+	public Card(int cardRnk, int cardSuit , int cardNbr){
 		this.iCardNbr = cardNbr;
 		this.iCardRnk = cardRnk;
 		this.iCardSuit = cardSuit;
